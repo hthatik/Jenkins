@@ -30,10 +30,10 @@ pipeline {
                 echo 'deplying the application2...'
             }
         }
-        post{
-            Success{
-                echo 'deplying the application Success..'
-            }
-        }
     }   
+    post{
+        Success{
+            echo 'deplying the application Success..'
+        }
+    }
 }
