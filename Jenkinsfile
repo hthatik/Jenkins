@@ -24,11 +24,5 @@ pipeline {
                 echo 'deplying the application...'
             }
         }
-        stage("deploy2") {
-        
-            steps {
-                echo 'deplying the application2...'
-            }
-        }
     }   
 }
