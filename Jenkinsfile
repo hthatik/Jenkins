@@ -32,8 +32,6 @@ pipeline {
         }
     }   
     post{
-        Success{
-            echo 'deplying the application Success..'
-        }
+        //
     }
 }
