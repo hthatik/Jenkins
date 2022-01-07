@@ -41,4 +41,11 @@ pipeline {
             }
         }
     }   
+    post {
+    failure {
+        mail to: 'hari.awscloud1@gmail.com',
+             subject: "Failed Pipeline: ${VERSION}",
+             body: "Something is wrong with ${VERSION}"
+    }
+}
 }
